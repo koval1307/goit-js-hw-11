@@ -1,7 +1,7 @@
 
 const body = document.querySelector ('body');
-const startBtn = document.querySelector('[data-action=start]');
-const stopBtn = document.querySelector('[data-action=stop]');
+const startBtnRef = document.querySelector('[data-action=start]');
+const stopBtnRef = document.querySelector('[data-action=stop]');
 const colors = [
     '#FFFFFF',
     '#2196F3',
