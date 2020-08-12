@@ -14,10 +14,10 @@ const colors = [
     return Math.floor(Math.random() * (max - min + 1) + min);
   };
   let intervalId = null;
-  function enableStartBtn (){
+  function disableStartBtn (){
     startBtn.setAttribute("disabled", "disabled")
   };
-  function disableStartBtn (){
+  function enableStartBtn (){
     startBtn.removeAttribute("disabled")
   }
   function startSwitchColors () {
