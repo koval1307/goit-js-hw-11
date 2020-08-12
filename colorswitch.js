@@ -24,12 +24,12 @@ const colors = [
       intervalId = setInterval(() => {
 const colorId =randomIntegerFromInterval(0,colors.length);
 body.style.backgroundColor = colors[colorId];
-enableStartBtn()
+disableStartBtn
       }, 1000);
   }
   function stopSwitchColors () {
   clearInterval(intervalId);
-  disableStartBtn()
+  enableStartBtn
   }
   startBtn.addEventListener('click', startSwitchColors);
   stopBtn.addEventListener('click', stopSwitchColors);
