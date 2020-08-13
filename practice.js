@@ -156,3 +156,20 @@
 // toGetSum(product4, 1000).then(succesLog).catch(errLog);
 // toGetSum(product2, 789).then(succesLog).catch(errLog);
 // console.log(toGetSum(product4,1000));
+
+// function fetchArticles(searchQuery, page =1 )
+// let query = "bitcoin"
+// {const url = `http://newsapi.org/v2/everything?q=${query}&from=2020-07-13&sortBy=publishedAt&apiKey=${apiKey}`
+// const apiKey = "ce40d06c4cac491c9dce13fc293707d6"
+// const options = {headers:
+// Autorization : apiKey},}
+
+
+// const getCurrency = function(str) {
+//     return fetch(Str)
+// }
+
+// getCurrency('https://api.privatbank.ua/p24api/pubinfo?exchange&json&coursid=11')
+
+// .then(data => data.json)
+// .then(data => data.forEach(el=> body))
