@@ -6,7 +6,7 @@ const  secondsRef = document.querySelector("[data-value=secs]");
 
 const timer = {
     start(){
-        const targetDate = new Date('Jun 27, 2021')
+        const targetDate = new Date('Jun 2, 2021')
         setInterval(() => {
             const currentTime = Date.now();
             const deltaTime = targetDate - currentTime;
@@ -14,7 +14,6 @@ const timer = {
         }, 1000);
     }
 };
-timer.start();
  function updateClockFace(time){
 const days = pad(Math.floor(time / (1000 * 60 * 60 * 24)));
 const hours = pad(Math.floor((time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
